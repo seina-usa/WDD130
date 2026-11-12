@@ -1,0 +1,9 @@
+img {
+    max-width: 500px;
+    width: 100%
+}
+article {
+    width: 500px;
+    text-align: right;
+    margin:0 auto;
+}

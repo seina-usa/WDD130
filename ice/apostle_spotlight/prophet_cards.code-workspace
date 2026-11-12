@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../prophet_cards"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ice"
+	}
+}

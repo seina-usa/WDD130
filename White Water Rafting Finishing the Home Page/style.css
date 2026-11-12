@@ -1,0 +1,152 @@
+/* --- 基本設定 --- */
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+}
+
+header {
+    background-color: #5d6d5b;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 20px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* --- ヒーローセクション --- */
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-msg h4 {
+    color: white;
+}
+
+/* --- ホームグリッド（メインコンテンツ） --- */
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    /* グリッドの行を明確に定義して、上3つのカードを1行目に配置します */
+}
+
+/* 上段の3つのカードを綺麗に横並びにする設定 */
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+/* 上段の大きな写真（フレーム付き、元の形を維持、大きく表示） */
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 10px solid #d9c8a9;
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform .5s;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+/* 下段のアイコン（フレームなし、小さく、中央に配置） */
+.home-grid .icon {
+    width: 50px;
+    height: auto;
+    border: none !important;
+    box-shadow: none !important;
+    display: block;
+    margin: 15px auto 0 auto;
+}
+
+/* --- 下部の山とメッセージセクション --- */
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg {
+    background-color: #6f7364;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    color: white;
+}
+
+/* --- フッター --- */
+footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.social img {
+    width: 30px;
+}

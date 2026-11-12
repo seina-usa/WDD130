@@ -1,0 +1,48 @@
+body {
+    background-color:#eaf2f5;
+    margin:0;
+    padding:0;
+}
+header {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+}
+h1 {
+    font-size:4vw;
+    align-self:center;
+}
+header img {
+    width:75px;
+    justify-self:right;
+    align-self: center;
+}
+main {
+    display:grid;
+    background-color: #152f42;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+    padding:20px 200px;
+
+}
+main img {
+    width:100%;
+    object-fit: cover;
+    height:300px;
+    place-self: center;
+}
+section {
+    text-align:center;
+}
+section img {
+    width:50px;
+    margin-top:20px;
+}
+footer {
+    text-align:right;
+    padding-right:20px;
+}
+#holder {
+    height:100vh;
+    display: grid;
+    grid-template-rows : 1fr 2fr 1fr auto;
+}

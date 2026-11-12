@@ -1,0 +1,164 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.book, .join {
+    background-color: #d9c2a3;
+}
+
+.book:hover, .join:hover {
+    background-color: #b59f7d;
+}
+
+#background {
+    height: 725px;
+    background-color: #e4f0f5; 
+}
+
+.msg {
+    background-color: #e4f0f5;
+}
+
+footer {
+    background-color: #333333;
+}
+.home-title, h4 {
+    color: #ffffff; 
+}
+
+.msg h2, .msg p {
+    color: #2b2b2b;
+}
+
+footer, footer p {
+    color: #ffffff;
+}
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.book, .join {
+    text-decoration: none;
+}
+
+footer p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: #fcfbfb;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book, .join {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+footer {
+    margin-top: 200px;
+    padding: 25px 50px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 50px 0;
+    background-color: #d9c2a3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.msg {
+    background-color: #d9c2a3;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+foot {
+    background-color: #556b2f;
+    margin-top: 100px;
+    padding: 25px 50px;
+    color: white;
+}

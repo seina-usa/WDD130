@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+}
+.bordered {
+    background-color: yellow;
+    border: solid 2px black;
+    margin: 30px;
+    padding: 20px;
+}
+.red {
+    color:red;
+    padding-top: 50px;
+}
+h1 {
+    margin-bottom: 100px;
+}
+.hoverer:hover {
+    color: cadetblue;
+}
+span {
+    background-color: rgb(57, 188, 73);
+    display: inline-block;
+}
+h2 {
+    color: chartreuse;
+}

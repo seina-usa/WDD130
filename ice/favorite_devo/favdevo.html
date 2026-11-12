@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="header-image"></div>
+  <div class="container">
+    <main>
+      <!-- content-box の中に header を移動します -->
+      <div class="content-box">
+        
+        <header class="header">
+          <h3>BYU-IDAHO SPEECHES</h3>
+          <h1>Favorite Devotionals</h1>
+          <h2>Explore messages shared with the BYU-idaho community.</h2>
+        </header>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Location</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Elder Gerrit W Gong</td>
+              <td>The Lilies of the Field</td>
+              <td>Rexburg, Idaho</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+             <td>Brother Gabriel W Reid</td>
+             <td>Fumbling is not Failing</td>
+             <td>Rexburg, Idaho</td>
+             <td>2024</td>
+            </tr>
+            <tr>
+             <td>President Alvin F Meredith III</td>
+             <td class="title-cell">Begin with the End in Mind</td>
+             <td>Rexburg, Idaho</td>
+             <td>2024</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr class="divider" />
+
+        <section class="form-section">
+          <h2>Add a Devotional</h2>
+          <h3>Share another message with the collection.</h3>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="speaker">Speaker name</label>
+              <input type="text" id="speaker" name="speaker">
+            </div>
+
+            <div class="form-group">
+              <label for="title">Devotional title</label>
+              <input type="text" id="title" name="title">
+            </div>
+
+            <div class="form-group">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location">
+            </div>
+
+            <div class="form-group">
+              <label for="year">Year</label>
+              <input type="text" id="year" name="year">
+            </div>
+          </div>
+          <div class="button-container">
+            <button type="button" class="btn-submit">Add devotional</button>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>

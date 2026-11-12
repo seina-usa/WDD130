@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ICE Challenge—CSS Positioning Activity"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "signup"
+	}
+}
